@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="tailwind-all.min.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="md:flex items-center justify-center flex-row ">
+
+    <aside class="">
+      <div class="report flex items-center justify-between md:flex-col md:items-start">
+        <img src="images/image-jeremy.png" class=" rounded-999" alt="">
+        <span class="inline-block ml-3 md:ml-0">
+          <p>Report for</p>
+          <h1 class="text-3xl md:text-5xl md:mb-8  font-light">Jeremy Robson</h1>
+        </span>
+      </div>
+      <ul class="inline-block flex md:flex-col md:items-start md:px-8 items-center py-4 text-lg">
+        <li class="inline-block li"> <button id="daily">Daily</button> </li>
+        <li class="inline-block li active"> <button id="weekly">Weekly</button> </li>
+        <li class="inline-block li"> <button id="monthly">Monthly</button> </li>
+      </ul>
+    </aside>
+
+
+    <div class="section md:flex flex-row justify-center items-center wrap flex-wrap">
+
+      <section class="relative">
+        <div class="absolute bottom-0 left-0 w-full px-10 dark py-5">
+              <div class="top flex items-center justify-between w-full"> 
+                <p class="text-white inline-block">Work</p>
+                <img src="images/icon-ellipsis.svg" class="inline-block" alt="">
+              </div>
+
+              <div class="bottom flex items-center justify-between w-full md:items-start">
+                      <h1 class="text-4xl font-light md:text-5xl hrs">0hrs</h1>
+                      <p class="txt">Last Week - <span class="week">0hrs</span> </p>
+              </div>
+        </div>
+      </section>
+
+      <section class="relative">
+        <div class="absolute bottom-0 left-0 w-full px-10 dark py-5">
+              <div class="top flex items-center justify-between w-full"> 
+                <p class="text-white inline-block">Play</p>
+                <img src="images/icon-ellipsis.svg" class="inline-block" alt="">
+              </div>
+
+              <div class="bottom flex items-center justify-between md:items-start w-full">
+                      <h1 class="text-4xl font-light md:text-5xl hrs">0hrs</h1>
+                      <p class="txt">Last Week - <span class="week">0hrs</span> </p>
+              </div>
+        </div>
+      </section>
+
+      <section class="relative">
+        <div class="absolute bottom-0 left-0 w-full px-10 dark py-5">
+              <div class="top flex items-center justify-between w-full"> 
+                <p class="text-white inline-block">Study</p>
+                <img src="images/icon-ellipsis.svg" class="inline-block" alt="">
+              </div>
+
+              <div class="bottom flex items-center justify-between md:items-start w-full">
+                      <h1 class="text-4xl font-light md:text-5xl hrs">0hrs</h1>
+                      <p class="txt">Last Week - <span class="week">0hrs</span> </p>
+              </div>
+        </div>
+      </section>
+
+
+      <section class="relative">
+        <div class="absolute bottom-0 left-0 w-full px-10 dark py-5">
+              <div class="top flex items-center justify-between w-full"> 
+                <p class="text-white inline-block">Exercise</p>
+                <img src="images/icon-ellipsis.svg" class="inline-block" alt="">
+              </div>
+
+              <div class="bottom flex items-center justify-between md:items-start w-full">
+                      <h1 class="text-4xl font-light md:text-5xl hrs">0hrs</h1>
+                      <p class="txt">Last Week - <span class="week">0hrs</span></p>
+              </div>
+        </div>
+      </section>
+
+      <section class="relative">
+        <div class="absolute bottom-0 left-0 w-full px-10 dark py-5">
+              <div class="top flex items-center justify-between w-full"> 
+                <p class="text-white inline-block">Social</p>
+                <img src="images/icon-ellipsis.svg" class="inline-block" alt="">
+              </div>
+
+              <div class="bottom flex items-center justify-between md:items-start w-full">
+                      <h1 class="text-4xl font-light md:text-5xl hrs">0hrs</h1>
+                      <p class="txt">Last Week - <span class="week">0hrs</span> </p>
+              </div>
+        </div>
+      </section>
+
+
+      <section class="relative">
+        <div class="absolute bottom-0 left-0 w-full px-10 dark py-5">
+              <div class="top flex items-center justify-between w-full"> 
+                <p class="text-white inline-block">Self Care</p>
+                <img src="images/icon-ellipsis.svg" class="inline-block" alt="">
+              </div>
+
+              <div class="bottom flex items-center justify-between md:items-start w-full">
+                      <h1 class="text-4xl font-light md:text-5xl hrs">0hrs</h1>
+                      <p class="txt">Last Week - <span class="week">0hrs</span> </p>
+              </div>
+        </div>
+      </section>
+
+
+
+
+    </div>
+
+  </main>
+  
+<!-- </body><div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Codebot</a>.
+  </div> -->
+  <script src="jquery-1.11.3.min.js.download"></script>
+  <script src="script.js"></script>
+</html>
